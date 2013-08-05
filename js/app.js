@@ -6,6 +6,8 @@ app.controller('Todo', ['$scope', function ($scope) {
     var count = 1;
 
     $scope.rows = [];
+    $scope.row = {};
+    $scope.editMode = {};
 
     $scope.save = function (user) {
 
@@ -25,5 +27,16 @@ app.controller('Todo', ['$scope', function ($scope) {
                 break;
             }
         }
+    }
+
+    $scope.edit = function(row){
+        $scope.row = row;
+        $scope.row.editMode = true;
+
+    }
+
+    $scope.saveChanges = function(row){
+        $scope.row.editMode = false;
+        $scope.row = row;
     }
 }]);
