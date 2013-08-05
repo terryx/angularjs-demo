@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html data-ng-app="App">
+<head>
+    <title>AngularJS Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="/js/jquery-1.10.2.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- AngularJS -->
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/app.js"></script>
+</head>
+<body>
+
+<div class="container" data-ng-controller="Todo">
+    <div class="row">
+        <h1>AngularJS Demo - Todo-list </h1>
+        <hr/>
+        <form>
+            <input type="text" data-ng-model="user.name">
+
+            <button type="button" class="btn btn-primary" data-ng-click="save()">Save</button>
+        </form>
+    </div>
+
+
+    <div class="row">
+        {{ user.name }}
+
+        <ul>
+            <li data-ng-repeat="user in users">{{ user.name }}</li>
+        </ul>
+    </div>
+
+</div>
+</body>
+</html>
