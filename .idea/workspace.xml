@@ -4,8 +4,8 @@
     <list default="true" id="88b7ef06-3af8-469d-a26d-d0c7853a3faa" name="Default" comment="" />
     <ignored path="angularjs-demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="88b7ef06-3af8-469d-a26d-d0c7853a3faa" time="1375672885073" ignored="false" />
-    <file path="/app.js" changelist="88b7ef06-3af8-469d-a26d-d0c7853a3faa" time="1375672826581" ignored="false" />
+    <file path="/index.html" changelist="88b7ef06-3af8-469d-a26d-d0c7853a3faa" time="1375674940557" ignored="false" />
+    <file path="/app.js" changelist="88b7ef06-3af8-469d-a26d-d0c7853a3faa" time="1375674520280" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="10" selection-start="968" selection-end="968" vertical-scroll-proportion="0.33333334">
+            <state line="47" column="77" selection-start="1463" selection-end="1463" vertical-scroll-proportion="-17.416666">
               <folding>
                 <element signature="tag#head#0;tag#html#0" expanded="false" />
               </folding>
@@ -36,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.14975041">
               <folding />
             </state>
           </provider>
@@ -62,8 +62,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="42" />
-    <option name="y" value="22" />
+    <option name="x" value="37" />
+    <option name="y" value="181" />
     <option name="width" value="1440" />
     <option name="height" value="800" />
   </component>
@@ -184,7 +184,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="22" width="1440" height="800" extended-state="0" />
+    <frame x="37" y="181" width="1440" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -277,19 +277,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="10" selection-start="968" selection-end="968" vertical-scroll-proportion="0.33333334">
+        <state line="47" column="77" selection-start="1463" selection-end="1463" vertical-scroll-proportion="-17.416666">
           <folding>
             <element signature="tag#head#0;tag#html#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.14975041">
+          <folding />
         </state>
       </provider>
     </entry>

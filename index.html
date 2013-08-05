@@ -25,17 +25,30 @@
         <form>
             <input type="text" data-ng-model="user.name">
 
-            <button type="button" class="btn btn-primary" data-ng-click="save()">Save</button>
+            <button type="submit" class="btn btn-primary" data-ng-click="save(user)">Save</button>
         </form>
     </div>
 
+    <br />
 
     <div class="row">
-        {{ user.name }}
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th class="col-1">ID</th>
+                <th class="col-3">Name</th>
+                <th></th>
+            </tr>
+            </thead>
 
-        <ul>
-            <li data-ng-repeat="user in users">{{ user.name }}</li>
-        </ul>
+            <tbody>
+            <tr data-ng-repeat="row in rows">
+                <td>{{ row.id }}</td>
+                <td>{{ row.name }}</td>
+                <td><button class="btn btn-danger" data-ng-click="remove(this)">Delete</button></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 
 </div>
