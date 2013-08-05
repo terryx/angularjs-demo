@@ -29,26 +29,31 @@
         </form>
     </div>
 
-    <br />
+    <br/>
 
-    <div class="row">
-        <table class="table table-bordered">
-            <thead>
-            <tr>
-                <th class="col-1">ID</th>
-                <th class="col-3">Name</th>
-                <th></th>
-            </tr>
-            </thead>
+    <div class="row" data-ng-show="rows.length">
+        <div class="row col-lg-6">
 
-            <tbody>
-            <tr data-ng-repeat="row in rows">
-                <td>{{ row.id }}</td>
-                <td>{{ row.name }}</td>
-                <td><button class="btn btn-danger" data-ng-click="remove(this)">Delete</button></td>
-            </tr>
-            </tbody>
-        </table>
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th class="col-1">ID</th>
+                    <th class="col-3">Name</th>
+                    <th class="col-3"></th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr data-ng-repeat="row in rows">
+                    <td>{{ row.id }}</td>
+                    <td>{{ row.name }}</td>
+                    <td>
+                        <button class="btn btn-danger" data-ng-click="remove(row)">Delete</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 
 </div>
