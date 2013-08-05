@@ -27,17 +27,27 @@
 
             <button type="button" class="btn btn-primary" data-ng-click="save()">Save</button>
         </form>
+        {{ user.name }}
     </div>
 
 
     <div class="row">
-        {{ user.name }}
+        <h3>jQuery way</h3>
 
-        <ul>
-            <li data-ng-repeat="user in users">{{ user.name }}</li>
-        </ul>
+        <input type="text" id="username">
+        <button type="button" class="btn btn-primary" onclick="save()">Save</button>
+        <div id="text"></div>
     </div>
 
 </div>
+
+<script>
+    $(function(){
+        $('#username').keyup(function(){
+            $('#text').text($(this).val());
+        });
+    });
+</script>
+
 </body>
 </html>
